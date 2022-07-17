@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                set PYTHONPATH=C:\Users\nisha\AppData\Local\Microsoft\WindowsApps\python
+                //set PYTHONPATH=C:\Users\nisha\AppData\Local\Microsoft\WindowsApps\python
                 bat 'python hello.py'           
             }
         }
